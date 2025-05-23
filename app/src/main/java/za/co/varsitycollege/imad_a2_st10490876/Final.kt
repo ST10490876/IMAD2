@@ -1,21 +1,23 @@
 package za.co.varsitycollege.imad_a2_st10490876
 
 import android.os.Bundle
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Score(False: Boolean, True: Boolean) : AppCompatActivity() {
+
+data class Question(val text: String, val answer: Boolean) {
 
     }
+}
 
 
-fun override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    enableEdgeToEdge()
-    setContentView(R.layout.activity_score)
-
+override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_final)
 
 
 

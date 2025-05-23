@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="startButton" type="id">startButton</item>
+    <item name="questionTextView" type="id">questionTextView</item>
+    <item name="trueButton" type="id">trueButton</item>
+    <item name="falseButton" type="id">falseButton</item>
+    <item name="nextButton" type="id">nextButton</item>
+    <item name="question_TextView" type="id">questionTextView</item>
+    <item name="question_TextViewe" type="id">questiontextView</item>
+</resources>
